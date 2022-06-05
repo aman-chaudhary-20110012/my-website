@@ -74,6 +74,9 @@
                 </div>
             </nav>
         </header>
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
 
          <!--Page Header Start-->
          <section class="page-header" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);">
@@ -281,222 +284,202 @@
                 </div>
 
                             
-                            <!-- Video Order Form Start -->
-                            <div class="start-order__start-booking">
-                                <h2 class="start-order__start-booking-title" >Video Order </h2>
-                                <div class="start-order__start-booking-wrapper">
-                                    <div class="start-order__start-booking-box tabs-box">
-                                        <ul class="tab-btns tab-buttons clearfix list-unstyled">
-                                            <li data-tab="#basic-details" class="tab-btn active-btn"><span>Basic Details</span></li>
-                                            <li data-tab="#upload-footage" class="tab-btn"><span>Upload Raw Footage</span></li>
-                                            <li data-tab="#payment" class="tab-btn"><span>Payment</span></li>
-                                        </ul>
-                                        <div class="tabs-content">
-                                            <div class="tab active-tab" id="basic-details">
-                                                <div class="start-order__start-booking-content">
-                                                    <form class="start-order__start-booking-form-box">
-                                                        <ul
-                                                            class="list-unstyled start-order__start-booking-form clearfix">
-                                                            <li class="start-order__start-booking-input">
-                                                                <input type="text" name="name" placeholder="Your Name">   
-                                                            </li>
-                                                            
-                                                            <li class="start-order__start-booking-input">
-                                                                <input type="text" name="email" placeholder="Email Address">   
-                                                            </li>
-                                                            <li class="start-order__start-booking-input">
-                                                                <input type="text" name="phone" placeholder="Phone Number">   
-                                                            </li>
-                                                            <li class="start-order__start-booking-input">
-                                                                <select class="selectpicker"
-                                                                    aria-label="Default select example">
-                                                                    <option selected>Video Type</option>
-                                                                    <option value="1">VLog</option>
-                                                                    <option value="2">Product Promo</option>
-                                                                    <option value="3">Typography</option>
-                                                                    <option value="4">Openers</option>
-                                                                    <option value="5">Photo Slideshow</option>
-                                                                    <option value="6">Logo Reveal</option>
-                                                                    <option value="7">Trailer Video</option>
-                                                                    <option value="8">Other</option>
-                                                                </select>
-                                                            </li>
-                                                            <li class="start-order__start-booking-input">
-                                                                <select class="selectpicker"
-                                                                    aria-label="Default select example">
-                                                                    <option selected>How long do you want it to be? </option>
-                                                                    <option value="1">Less than 5 min. </option>
-                                                                    <option value="2">5 to 10 min. </option>
-                                                                    <option value="3">10-20 min.</option>
-                                                                    <option value="3">20-30 min.</option>
-                                                                    <option value="3">More than 30 min.</option>
-                                                                </select>
-                                                            </li>
+                <!-- Video Order Form Start -->
+                <div class="start-order__start-booking">
+                    <h2 class="start-order__start-booking-title" >Video Order </h2>
+                    <div class="start-order__start-booking-wrapper">
+                        <div class="start-order__start-booking-box tabs-box">
+                            <ul class="tab-btns tab-buttons clearfix list-unstyled">
+                                <li data-tab="#basic-details" class="tab-btn active-btn"><span>Basic Details</span></li>
+                                <li data-tab="#upload-footage" class="tab-btn"><span>Upload Raw Footage</span></li>
+                                <li data-tab="#payment" class="tab-btn"><span>Payment</span></li>
+                            </ul>
+                            <div class="tabs-content">
+                                <div class="tab active-tab" id="basic-details">
+                                    <div class="start-order__start-booking-content">
+                                        <form class="start-order__start-booking-form-box">
+                                            <ul
+                                                class="list-unstyled start-order__start-booking-form clearfix">
+                                                <li class="start-order__start-booking-input">
+                                                    <input type="text" name="name" placeholder="Your Name">   
+                                                </li>
+                                                
+                                                <li class="start-order__start-booking-input">
+                                                    <input type="text" name="email" placeholder="Email Address">   
+                                                </li>
+                                                <li class="start-order__start-booking-input">
+                                                    <input type="text" name="phone" placeholder="Phone Number">   
+                                                </li>
+                                                <li class="start-order__start-booking-input">
+                                                    <select class="selectpicker"
+                                                        aria-label="Default select example">
+                                                        <option selected>Video Type</option>
+                                                        <option value="1">VLog</option>
+                                                        <option value="2">Product Promo</option>
+                                                        <option value="3">Typography</option>
+                                                        <option value="4">Openers</option>
+                                                        <option value="5">Photo Slideshow</option>
+                                                        <option value="6">Logo Reveal</option>
+                                                        <option value="7">Trailer Video</option>
+                                                        <option value="8">Other</option>
+                                                    </select>
+                                                </li>
+                                                <li class="start-order__start-booking-input">
+                                                    <select class="selectpicker"
+                                                        aria-label="Default select example">
+                                                        <option selected>How long do you want it to be? </option>
+                                                        <option value="1">Less than 5 min. </option>
+                                                        <option value="2">5 to 10 min. </option>
+                                                        <option value="3">10-20 min.</option>
+                                                        <option value="3">20-30 min.</option>
+                                                        <option value="3">More than 30 min.</option>
+                                                    </select>
+                                                </li>
 
-                                                            
-                                                            
-                                                            <li class="start-order__start-booking-input">
-                                                                <select class="selectpicker"
-                                                                    aria-label="Default select example">
-                                                                    <option selected>Aspect Ratio</option>
-                                                                    <option value="1">21:9 (Cinemascope) </option>
-                                                                    <option value="1">16:9 (Horizontal: YouTube, Facebook) </option>
-                                                                    <option value="2">9:16 (Vertical: YouTube Shorts, IG Reel, Story) </option>
-                                                                    <option value="3">4:3 (Standard Monitor) </option>
-                                                                    <option value="3">1:1 (Square: IG Post) </option>
-                                                                    <option value="3">Other</option>
-                                                                </select>
-                                                            </li>
-                                                            
-
-                                                            <li class="start-order__start-booking-input">
-                                                                <input type="text" name="date" placeholder="When do you want to publish this video?"
-                                                                    id="datepicker2">
-                                                                <div class="start-order__start-bookin-icon-box">
-                                                                    <i class="fa fa-calendar"></i>
-                                                                </div>
-                                                            </li>
-
-                                                            <div class="start-order__input-box">
-                                                                <textarea name="message" placeholder="Additional Comments (Optional)"></textarea>
-                                                            </div>
-                                                            
-                                                        </ul>
-                                                    </form>
-
-
-                                                    <div class="start-order__next-box">
-                                                        <button type="submit"
-                                                            class="start-order__next-btn">Next → </button>
+                                                
+                                                
+                                                <li class="start-order__start-booking-input">
+                                                    <select class="selectpicker"
+                                                        aria-label="Default select example">
+                                                        <option selected>Aspect Ratio</option>
+                                                        <option value="1">21:9 (Cinemascope) </option>
+                                                        <option value="1">16:9 (Horizontal: YouTube, Facebook) </option>
+                                                        <option value="2">9:16 (Vertical: YouTube Shorts, IG Reel, Story) </option>
+                                                        <option value="3">4:3 (Standard Monitor) </option>
+                                                        <option value="3">1:1 (Square: IG Post) </option>
+                                                        <option value="3">Other</option>
+                                                    </select>
+                                                </li>
+                                            
+                                                <li class="start-order__start-booking-input">
+                                                    <input type="text" name="date" placeholder="When do you want to publish this video?"
+                                                        id="datepicker2">
+                                                    <div class="start-order__start-bookin-icon-box">
+                                                        <i class="fa fa-calendar"></i>
                                                     </div>
+                                                </li>
 
-
-
-
-
+                                                <div class="start-order__input-box">
+                                                    <textarea name="message" placeholder="Additional Comments (Optional)"></textarea>
                                                 </div>
-                                            </div>
-
-
-
-
-                                            <div class="tab" id="upload-footage">
-                                                <div class="start-order__start-booking-content">
-                                                    <form class="start-order__start-booking-form-box">
-                                                        <ul
-                                                            class="list-unstyled start-order__start-booking-form clearfix">
-                                                            <li class="start-order__start-booking-input">
-                                                                <select class="selectpicker"
-                                                                    aria-label="Default select example">
-                                                                    <option selected>Pick-up </option>
-                                                                    <option value="1">One</option>
-                                                                    <option value="2">Two</option>
-                                                                    <option value="3">Three</option>
-                                                                </select>
-                                                            </li>
-                                                            
-                                                            <li class="start-order__start-booking-input">
-                                                                <select class="selectpicker"
-                                                                    aria-label="Default select example">
-                                                                    <option selected>Select car class</option>
-                                                                    <option value="1">One</option>
-                                                                    <option value="2">Two</option>
-                                                                    <option value="3">Three</option>
-                                                                </select>
-                                                            </li>
-                                                            <li class="start-order__start-booking-input">
-                                                                <input type="text" name="link" placeholder="Paste the Google drive link here (Optional)">   
-                                                            </li>
-                                                            
-                                                        </ul>
-                                                    </form> 
-                                                    <div class="start-order__back-btn-box">
-                                                        <button type="submit" 
-                                                            class="start-order__back-btn"> ← Back</button>
-                                                    </div>
-                                                    <div class="start-order__next-btn-box">
-                                                        <button type="submit"
-                                                            class="start-order__next-btn">Next → </button>
-                                                    </div>
-
-                                    
-                                                </div>
-                                            </div>
-
-                                            <div class="tab" id="payment">
-                                                <div class="start-order__start-booking-content">
-                                                    <form class="start-order__start-booking-form-box">
-                                                        <ul
-                                                            class="list-unstyled start-order__start-booking-form clearfix">
-                                                            <li class="start-order__start-booking-input">
-                                                                <select class="selectpicker"
-                                                                    aria-label="Default select example">
-                                                                    <option selected>Pick-up </option>
-                                                                    <option value="1">One</option>
-                                                                    <option value="2">Two</option>
-                                                                    <option value="3">Three</option>
-                                                                </select>
-                                                            </li>
-                                                            
-                                                            <li class="start-order__start-booking-input">
-                                                                <select class="selectpicker"
-                                                                    aria-label="Default select example">
-                                                                    <option selected>Select quantity</option>
-                                                                    <option value="1">One</option>
-                                                                    <option value="2">Two</option>
-                                                                    <option value="3">Three</option>
-                                                                </select>
-                                                            </li>
-                                                        </ul>
-                                                    </form>
-                                                    <div class="start-order__dirver-baby-price-box">
-                                                        <div
-                                                            class="start-order__dirver-baby-price-box-single clearfix">
-                                                            <div class="start-order__dirver-baby-price-left">
-                                                                <input type="checkbox" name="driver" id="tag_1">
-                                                                <label for="tag_1"><span></span>Driver</label>
-                                                            </div>
-                                                            <div class="start-order__dirver-baby-price-right">
-                                                                <p>$10.00 /perday</p>
-                                                            </div>
-                                                        </div>
-                                                        <div
-                                                            class="start-order__dirver-baby-price-box-single clearfix">
-                                                            <div class="start-order__dirver-baby-price-left">
-                                                                <input type="checkbox" name="baby seat" id="tag_2">
-                                                                <label for="tag_2"><span></span>I have reviewed the form. All the Information is correct.</label>
-                                                            </div>
-                                                        </div>
-                                                    </div>  
-                                                    <div class="start-order__back-btn-box">
-                                                        <button type="submit" 
-                                                            class="start-order__back-btn"> ← Back</button>
-                                                    </div>
-                                                    <div class="start-order__order-now-box">
-                                                        <button type="submit" 
-                                                            class="start-order__order-now-btn">Order Now</button>
-                                                    </div>
-
-                                                    
-                                                </div>
-                                            </div>
-
-
+                                                
+                                            </ul>
+                                        </form>
+                                        <div class="start-order__next-box">
+                                            <button type="submit"
+                                                class="start-order__next-btn">Next → </button>
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="tab" id="upload-footage">
+                                    <div class="start-order__start-booking-content">
+                                        <form class="start-order__start-booking-form-box">
+                                            <ul
+                                                class="list-unstyled start-order__start-booking-form clearfix">
+                                                <li class="start-order__start-booking-input">
+                                                    <select class="selectpicker"
+                                                        aria-label="Default select example">
+                                                        <option selected>Pick-up </option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </li>
+                                                
+                                                <li class="start-order__start-booking-input">
+                                                    <select class="selectpicker"
+                                                        aria-label="Default select example">
+                                                        <option selected>Select car class</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </li>
+                                                <li class="start-order__start-booking-input">
+                                                    <input type="text" name="link" placeholder="Paste the Google drive link here (Optional)">   
+                                                </li>
+                                                
+                                            </ul>
+                                        </form> 
+                                        <div class="start-order__back-btn-box">
+                                            <button type="submit" 
+                                                class="start-order__back-btn"> ← Back</button>
+                                        </div>
+                                        <div class="start-order__next-btn-box">
+                                            <button type="submit"
+                                                class="start-order__next-btn">Next → </button>
+                                        </div>
+
+                        
+                                    </div>
+                                </div>
+
+                                <div class="tab" id="payment">
+                                    <div class="start-order__start-booking-content">
+                                        <form class="start-order__start-booking-form-box">
+                                            <ul
+                                                class="list-unstyled start-order__start-booking-form clearfix">
+                                                <li class="start-order__start-booking-input">
+                                                    <select class="selectpicker"
+                                                        aria-label="Default select example">
+                                                        <option selected>Pick-up </option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </li>
+                                                
+                                                <li class="start-order__start-booking-input">
+                                                    <select class="selectpicker"
+                                                        aria-label="Default select example">
+                                                        <option selected>Select quantity</option>
+                                                        <option value="1">One</option>
+                                                        <option value="2">Two</option>
+                                                        <option value="3">Three</option>
+                                                    </select>
+                                                </li>
+                                            </ul>
+                                        </form>
+                                        <div class="start-order__dirver-baby-price-box">
+                                            <div
+                                                class="start-order__dirver-baby-price-box-single clearfix">
+                                                <div class="start-order__dirver-baby-price-left">
+                                                    <input type="checkbox" name="driver" id="tag_1">
+                                                    <label for="tag_1"><span></span>Driver</label>
+                                                </div>
+                                                <div class="start-order__dirver-baby-price-right">
+                                                    <p>$10.00 /perday</p>
+                                                </div>
+                                            </div>
+                                            <div
+                                                class="start-order__dirver-baby-price-box-single clearfix">
+                                                <div class="start-order__dirver-baby-price-left">
+                                                    <input type="checkbox" name="baby seat" id="tag_2">
+                                                    <label for="tag_2"><span></span>I have reviewed the form. All the Information is correct.</label>
+                                                </div>
+                                            </div>
+                                        </div>  
+                                        <div class="start-order__back-btn-box">
+                                            <button type="submit" 
+                                                class="start-order__back-btn"> ← Back</button>
+                                        </div>
+                                        <div class="start-order__order-now-box">
+                                            <button type="submit" 
+                                                class="start-order__order-now-btn">Order Now</button>
+                                        </div>  
+                                    </div>
+                                </div>
                             </div>
-
-
-
-                             
+                        </div>
+                    </div>
+                </div>              
             </div>
         </section>
-        <!--Listing Details End-->
+        <!--Order Form End End-->
 
-        
         <!--Explore Pricing-->
-        <section class="explore-rent">
+        <section class="explore-pricing">
             <div class="container">
                 <div class="section-title text-left">
                     <span class="section-title__tagline">Browse Hot Offers</span>
@@ -504,17 +487,17 @@
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="explore-rent__carousel owl-theme owl-carousel">
+                        <div class="explore-pricing__carousel owl-theme owl-carousel">
                             <!--Explore Pricing Single-->
-                            <div class="explore-rent__single">
-                                <div class="explore-rent__img">
+                            <div class="explore-pricing__single">
+                                <div class="explore-pricing__img">
                                     <img src="assets/images/Start Order/start-order-img-1.jpg"  alt="" width="400">
                                 </div>
-                                <div class="explore-rent__content">
-                                    <h5 class="explore-rent__sub-title">California</h5>
-                                    <h3 class="explore-rent__title"><a href="#">House for Rent in San Diego</a></h3>
-                                    <p class="explore-rent__price"><span>$300 </span>/per month</p>
-                                    <ul class="list-unstyled explore-rent__details">
+                                <div class="explore-pricing__content">
+                                    <h5 class="explore-pricing__sub-title">California</h5>
+                                    <h3 class="explore-pricing__title"><a href="#">House for Rent in San Diego</a></h3>
+                                    <p class="explore-pricing__price"><span>$300 </span>/per month</p>
+                                    <ul class="list-unstyled explore-pricing__details">
                                         <li><a href="#">206m2</a></li>
                                         <li><a href="#">3 Beds</a></li>
                                         <li><a href="#">2 Bath</a></li>
@@ -522,15 +505,15 @@
                                 </div>
                             </div>
                             <!--Explore PricingSingle-->
-                            <div class="explore-rent__single">
-                                <div class="explore-rent__img">
+                            <div class="explore-pricing__single">
+                                <div class="explore-pricing__img">
                                     <img src="assets/images/Start Order/start-order-img-2.jpg"  alt="" width="400">
                                 </div>
-                                <div class="explore-rent__content">
-                                    <h5 class="explore-rent__sub-title">California</h5>
-                                    <h3 class="explore-rent__title"><a href="#">House for Rent in San Diego</a></h3>
-                                    <p class="explore-rent__price"><span>$300 </span>/per month</p>
-                                    <ul class="list-unstyled explore-rent__details">
+                                <div class="explore-pricing__content">
+                                    <h5 class="explore-pricing__sub-title">California</h5>
+                                    <h3 class="explore-pricing__title"><a href="#">House for Rent in San Diego</a></h3>
+                                    <p class="explore-pricing__price"><span>$300 </span>/per month</p>
+                                    <ul class="list-unstyled explore-pricing__details">
                                         <li><a href="#">206m2</a></li>
                                         <li><a href="#">3 Beds</a></li>
                                         <li><a href="#">2 Bath</a></li>
@@ -538,15 +521,15 @@
                                 </div>
                             </div>
                             <!--Explore Rent Single-->
-                            <div class="explore-rent__single">
-                                <div class="explore-rent__img">
+                            <div class="explore-pricing__single">
+                                <div class="explore-pricing__img">
                                     <img src="assets/images/Start Order/start-order-img-3.jpg"  alt="" width="400">
                                 </div>
-                                <div class="explore-rent__content">
-                                    <h5 class="explore-rent__sub-title">California</h5>
-                                    <h3 class="explore-rent__title"><a href="#">House for Rent in San Diego</a></h3>
-                                    <p class="explore-rent__price"><span>$300 </span>/per month</p>
-                                    <ul class="list-unstyled explore-rent__details">
+                                <div class="explore-pricing__content">
+                                    <h5 class="explore-pricing__sub-title">California</h5>
+                                    <h3 class="explore-pricing__title"><a href="#">House for Rent in San Diego</a></h3>
+                                    <p class="explore-pricing__price"><span>$300 </span>/per month</p>
+                                    <ul class="list-unstyled explore-pricing__details">
                                         <li><a href="#">206m2</a></li>
                                         <li><a href="#">3 Beds</a></li>
                                         <li><a href="#">2 Bath</a></li>
@@ -554,15 +537,15 @@
                                 </div>
                             </div>
                             <!--EExplore Pricing Single-->
-                            <div class="explore-rent__single">
-                                <div class="explore-rent__img">
+                            <div class="explore-pricing__single">
+                                <div class="explore-pricing__img">
                                     <img src="assets/images/Start Order/start-order-img-4.jpg"  alt="" width="400">
                                 </div>
-                                <div class="explore-rent__content">
-                                    <h5 class="explore-rent__sub-title">California</h5>
-                                    <h3 class="explore-rent__title"><a href="#">House for Rent in San Diego</a></h3>
-                                    <p class="explore-rent__price"><span>$300 </span>/per month</p>
-                                    <ul class="list-unstyled explore-rent__details">
+                                <div class="explore-pricing__content">
+                                    <h5 class="explore-pricing__sub-title">California</h5>
+                                    <h3 class="explore-pricing__title"><a href="#">House for Rent in San Diego</a></h3>
+                                    <p class="explore-pricing__price"><span>$300 </span>/per month</p>
+                                    <ul class="list-unstyled explore-pricing__details">
                                         <li><a href="#">206m2</a></li>
                                         <li><a href="#">3 Beds</a></li>
                                         <li><a href="#">2 Bath</a></li>

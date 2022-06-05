@@ -156,8 +156,8 @@
 
 
   // Explore Rent Carousel
-  if ($(".explore-rent__carousel").length) {
-    $(".explore-rent__carousel").owlCarousel({
+  if ($(".explore-pricing__carousel").length) {
+    $(".explore-pricing__carousel").owlCarousel({
       loop: true,
       margin: 30,
       nav: true,
