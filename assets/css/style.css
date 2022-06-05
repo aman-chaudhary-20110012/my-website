@@ -7295,7 +7295,7 @@ ul {
     border: none;
     outline: none;
     background-color: var(--thm-primary);
-    padding: 20.5px 98px;
+    padding: 15px 40px;
     font-weight: 700;
     border-radius: var(--thm-border-radius);
     transition: all 500ms ease;
@@ -7311,7 +7311,7 @@ ul {
     border: none;
     outline: none;
     background-color: var(--thm-primary);
-    padding: 20.5px 98px;
+    padding: 15px 40px;
     font-weight: 700;
     border-radius: var(--thm-border-radius);
     transition: all 500ms ease;
@@ -7332,7 +7332,7 @@ ul {
     border: none;
     outline: none;
     background-color: var(--thm-primary);
-    padding: 20.5px 98px;
+    padding: 15px 40px;
     font-weight: 700;
     border-radius: var(--thm-border-radius);
     transition: all 500ms ease;
