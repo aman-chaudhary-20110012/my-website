@@ -169,7 +169,7 @@ ul {
     margin: 0;
     font-weight: 900;
     color: var(--thm-black);
-    font-size: 60px;
+    font-size: 50px;
     line-height: 70px;
 }
 
@@ -3561,7 +3561,7 @@ ul {
 .rules {
     position: relative;
     display: block;
-    padding: 106px 0 240px;
+    padding: 60px 0 80px;
 }
 
 .rules-bg {
@@ -4412,7 +4412,7 @@ ul {
 .contact-page {
     position: relative;
     display: block;
-    padding: 120px 0 170px;
+    padding: 50px 0 170px;
 }
 
 .contact-page__left {
@@ -4586,7 +4586,7 @@ ul {
 .about-page {
     position: relative;
     display: block;
-    padding: 120px 0 120px;
+    padding: 50px 0 50px;
 }
 
 .about-page__left {
@@ -4618,7 +4618,7 @@ ul {
 }
 
 .about-page__right .section-title {
-    margin-bottom: 36px;
+    margin-bottom: 10px;
 }
 
 .about-page__text {
@@ -5264,7 +5264,7 @@ ul {
     position: relative;
     display: block;
     background-color: #e9edf2;
-    padding: 40px 50px 50px;
+    padding: 40px 50px 120px;
 }
 
 
@@ -5343,6 +5343,8 @@ ul {
     padding: 0 30px;
 }
 
+
+
 .start-order__start-bookin-icon-box {
     position: absolute;
     top: 50%;
@@ -5356,34 +5358,34 @@ ul {
     color: var(--thm-gray);
 }
 
-.start-order__dirver-baby-price-box {
+.start-order__payment-check-box {
     position: relative;
     display: block;
-    max-width: 325px;
     width: 100%;
     margin-top: -4px;
 }
 
-.start-order__dirver-baby-price-box-single {
+.start-order__payment-check-box-single {
     position: relative;
     display: block;
+    
 }
 
-.start-order__dirver-baby-price-box-single+.start-order__dirver-baby-price-box-single {
+.start-order__payment-check-box-single+.start-order__payment-check-box-single {
     margin-top: 11px;
 }
 
-.start-order__dirver-baby-price-left {
+.start-order__payment-check-left {
     position: relative;
     display: block;
     float: left;
 }
 
-.start-order__dirver-baby-price-left input[type="checkbox"] {
+.start-order__payment-check-left input[type="checkbox"] {
     display: none;
 }
 
-.start-order__dirver-baby-price-left label {
+.start-order__payment-check-left label {
     font-size: 14px;
     font-weight: 500;
     color: var(--thm-black);
@@ -5393,7 +5395,7 @@ ul {
     cursor: pointer;
 }
 
-.start-order__dirver-baby-price-left input[type="checkbox"]+label span {
+.start-order__payment-check-left input[type="checkbox"]+label span {
     position: absolute;
     display: block;
     top: 4px;
@@ -5406,7 +5408,7 @@ ul {
     transition: all 300ms ease;
 }
 
-.start-order__dirver-baby-price-left label span:before {
+.start-order__payment-check-left label span:before {
     position: absolute;
     top: 0px;
     left: 0px;
@@ -5425,59 +5427,69 @@ ul {
     transition: all 300ms ease;
 }
 
-.start-order__dirver-baby-price-left input[type="checkbox"]:checked+label span {
+.start-order__payment-check-left input[type="checkbox"]:checked+label span {
     background: var(--thm-primary);
 }
 
-.start-order__dirver-baby-price-left input[type="checkbox"]:checked+label span:before {
+.start-order__payment-check-left input[type="checkbox"]:checked+label span:before {
     opacity: 1;
 }
 
-.start-order__dirver-baby-price-right {
+
+
+
+
+.start-order__next-btn-box {
     position: relative;
     display: block;
     float: right;
+    margin-top: 10px;
 }
-
-.start-order__dirver-baby-price-right p {
-    font-weight: 500;
-    margin: 0;
-}
-
 .start-order__next-btn {
     font-size: 18px;
     color: var(--thm-base);
     border: none;
     outline: none;
     background-color: var(--thm-primary);
-    padding: 15px 40px;
+    padding: 10px 40px;
     font-weight: 700;
     border-radius: var(--thm-border-radius);
     transition: all 500ms ease;
-    margin-top: 15px;
+    margin-top: 10px;
+
 }
 .start-order__next-btn:hover {
     background-color: var(--thm-black);
 }
-
+.start-order__back-btn-box {
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
 .start-order__back-btn {
     font-size: 18px;
     color: var(--thm-base);
     border: none;
     outline: none;
     background-color: var(--thm-primary);
-    padding: 15px 40px;
+    padding: 10px 40px;
     font-weight: 700;
     border-radius: var(--thm-border-radius);
     transition: all 500ms ease;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .start-order__back-btn:hover {
     background-color: var(--thm-black);
 }
 
-
+.start-order__order-now-btn-box {
+    position: relative;
+    display: block;
+    float: right;
+    margin-top: 10px;
+}
 .start-order__order-now-btn:hover {
     background-color: var(--thm-black);
 }
@@ -5487,11 +5499,11 @@ ul {
     border: none;
     outline: none;
     background-color: var(--thm-primary);
-    padding: 15px 40px;
+    padding: 10px 40px;
     font-weight: 700;
     border-radius: var(--thm-border-radius);
     transition: all 500ms ease;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 
@@ -5678,7 +5690,7 @@ ul {
 
 
 .start-order__input-box input[type="text"]{
-    height: 75px;
+    height: 60px;
     width: 100%;
     border: none;
     background: #e9edf2;
@@ -5690,6 +5702,7 @@ ul {
     color: var(--thm-gray);
     font-weight: 400;
 }
+
 .start-order__input-box textarea {
     font-size: 14px;
     color: var(--thm-gray);

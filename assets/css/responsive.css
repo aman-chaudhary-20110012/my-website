@@ -436,10 +436,15 @@
 }    
 .start-order__location-top {
     flex-direction: column;
-}    
+} 
+
+.start-order__start-booking-box .tab-btns .tab-btn span {
+    padding: 14px 15px;
+    font-size: 14px;
+}
    
 .start-order__start-booking-content {
-    padding: 40px 35px 50px;
+    padding: 40px 35px 100px;
 }    
 .start-order__start-booking-btn {
     padding: 20.5px 40px;

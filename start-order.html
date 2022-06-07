@@ -130,7 +130,9 @@
                     </div>
                 </div>
                 <!-- Slideshow End -->
-                
+
+
+                <!-- Order Discription Start -->
                 <div class="start-order__desc">
                     <h2 class="start-order__title">Description</h2>
                     <p class="start-order__text-1">Aliquam lorem ante, dapibus in, viverra quis, feugiat
@@ -147,7 +149,7 @@
                 </div>           
                 <div class="start-order__features">
                     <div class="row">
-                        <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
                             <ul class="list-unstyled start-order__features-list">
                                 <li>
                                     <div class="icon">
@@ -175,7 +177,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
                             <ul class="list-unstyled start-order__features-list">
                                 <li>
                                     <div class="icon">
@@ -203,35 +205,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3">
-                            <ul class="list-unstyled start-order__features-list mar-b-0">
-                                <li>
-                                    <div class="icon">
-                                        <i class="fa fa-check"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>Air Conditioning</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fa fa-check"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>Leather Seats</p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="icon">
-                                        <i class="fa fa-check"></i>
-                                    </div>
-                                    <div class="text">
-                                        <p>Music System</p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-3">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
                             <ul class="list-unstyled start-order__features-list mar-b-0">
                                 <li>
                                     <div class="icon">
@@ -282,6 +256,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- Order Discription End -->
 
                             
                 <!-- Video Order Form Start -->
@@ -365,9 +340,10 @@
                                                 
                                             </ul>
                                         </form>
-                                        <div class="start-order__next-box">
+                                        <div class="start-order__next-btn-box">
+                                            
                                             <button type="submit"
-                                                class="start-order__next-btn">Next → </button>
+                                                class="start-order__next-btn"> Next → </button>
                                         </div>
                                     </div>
                                 </div>
@@ -377,15 +353,15 @@
                                         <form class="start-order__start-booking-form-box">
                                             <ul
                                                 class="list-unstyled start-order__start-booking-form clearfix">
+                                                
                                                 <li class="start-order__start-booking-input">
-                                                    <select class="selectpicker"
-                                                        aria-label="Default select example">
-                                                        <option selected>Pick-up </option>
-                                                        <option value="1">One</option>
-                                                        <option value="2">Two</option>
-                                                        <option value="3">Three</option>
-                                                    </select>
+                                                    <input type="text" name="name" placeholder="Your Name">   
                                                 </li>
+
+                                                <li class="start-order__start-booking-input">
+                                                    <input type="file" name="file" placeholder="Upload Raw Videos">   
+                                                </li>
+                                                
                                                 
                                                 <li class="start-order__start-booking-input">
                                                     <select class="selectpicker"
@@ -441,30 +417,22 @@
                                                 </li>
                                             </ul>
                                         </form>
-                                        <div class="start-order__dirver-baby-price-box">
+                                        <div class="start-order__payment-check-box">
                                             <div
-                                                class="start-order__dirver-baby-price-box-single clearfix">
-                                                <div class="start-order__dirver-baby-price-left">
+                                                class="start-order__payment-check-box-single clearfix">
+                                                <div class="start-order__payment-check-left">
                                                     <input type="checkbox" name="driver" id="tag_1">
-                                                    <label for="tag_1"><span></span>Driver</label>
+                                                    <label for="tag_1"><span></span>I have reviewed the form. All the Information is correct.</label>
                                                 </div>
-                                                <div class="start-order__dirver-baby-price-right">
-                                                    <p>$10.00 /perday</p>
-                                                </div>
+                                                
                                             </div>
-                                            <div
-                                                class="start-order__dirver-baby-price-box-single clearfix">
-                                                <div class="start-order__dirver-baby-price-left">
-                                                    <input type="checkbox" name="baby seat" id="tag_2">
-                                                    <label for="tag_2"><span></span>I have reviewed the form. All the Information is correct.</label>
-                                                </div>
-                                            </div>
+
                                         </div>  
                                         <div class="start-order__back-btn-box">
                                             <button type="submit" 
                                                 class="start-order__back-btn"> ← Back</button>
                                         </div>
-                                        <div class="start-order__order-now-box">
+                                        <div class="start-order__order-now-btn-box">
                                             <button type="submit" 
                                                 class="start-order__order-now-btn">Order Now</button>
                                         </div>  
@@ -559,62 +527,7 @@
         </section>
         <!--Explore Pricing End-->
 
-        <!--Why Choose Start-->
-        <section class="why-choose-one">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="section-title text-left">
-                            <span class="section-title__tagline">Our Benefits</span>
-                            <h2 class="section-title__title">Why You Should Choose Us</h2>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6">
-                        <div class="why-choose-one__right-text-box">
-                            <p class="why-choose-one__right-text">There are many variations of passages of available but
-                                the majority have suffered alteration in some form, by injected humou or randomised
-                                words which don't look even slightly believable.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4">
-                        <!--Why Choose Single-->
-                        <div class="why-choose-one__single">
-                            <div class="why-choose-one__icon">
-                                <span class="icon-for-rent"></span>
-                            </div>
-                            <div class="why-choose-one__text-box">
-                                <p>Get Car, House <br> or Machines on Rent</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <!--Why Choose Single-->
-                        <div class="why-choose-one__single">
-                            <div class="why-choose-one__icon">
-                                <span class="icon-plumber"></span>
-                            </div>
-                            <div class="why-choose-one__text-box">
-                                <p>Skilled & Professional <br> Team Members</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4">
-                        <!--Why Choose Single-->
-                        <div class="why-choose-one__single">
-                            <div class="why-choose-one__icon">
-                                <span class="icon-customer-review"></span>
-                            </div>
-                            <div class="why-choose-one__text-box">
-                                <p>We’re Trusted by <br> 8300 Happy Customers</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--Why Choose End-->
+        
 
 
 
@@ -771,9 +684,6 @@
     <script src="assets/vendors/vegas/vegas.min.js"></script>
     <script src="assets/vendors/jquery-ui/jquery-ui.js"></script>
     <script src="assets/vendors/timepicker/timePicker.js"></script>
-
-
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyATY4Rxc8jNvDpsK8ZetC7JyN4PFVYGCGM"></script>
 
 
     <!-- template js -->
