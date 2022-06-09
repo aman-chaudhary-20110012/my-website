@@ -2458,6 +2458,7 @@ ul {
     position: relative;
     display: block;
     background-color: #e9edf2;;
+    padding: 100px 0 100px;
 }
 
 .premium-video__left {
@@ -2992,7 +2993,7 @@ ul {
 }
 
 .site-footer__top {
-    padding-top: 100px;
+    padding-top: 80px;
     border-bottom: 1px solid rgba(var(--thm-base-rgb), .10);
     padding-bottom: 91px;
     margin-bottom: 40px;
@@ -4076,7 +4077,7 @@ ul {
 
 
 .page-header__inner h2 {
-    font-size: 40px;
+    font-size: 36px;
     color: var(--thm-base);
     line-height: 74px;
     font-weight: 900;
@@ -4093,7 +4094,7 @@ ul {
 .privacy-policy {
     position: relative;
     display: block;
-    padding: 60px 0 120px;
+    padding: 15px 0;
 }
 .privacy-policy {
     position: relative;
@@ -4105,21 +4106,16 @@ ul {
     margin-top: 31px;
 }
 .privacy-policy__title {
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 34px;
-    margin-bottom: 24px;
 }
-.privacy-policy__text-one {
-    font-size: 16px;
+.privacy-policy__text {
+    font-size: 14px;
     margin: 0;
     font-weight: 500;
-    padding-bottom: 33px;
-}
-.privacy-policy__text-two {
-    font-size: 16px;
-    margin: 0;
-    font-weight: 500;
+    padding-bottom: 20px;
+    text-align: justify;
 }
 
 /*--------------------------------------------------------------
@@ -4131,22 +4127,24 @@ ul {
     padding: 60px 0 80px;
 }
 .faq-question {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    text-align: justify;
 }
 .faq-ques {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 800;
+
 }
 .faq-answer {
-    font-size: 18px;
-    margin-bottom: 60px;
+    font-size: 16px;
+    margin-bottom: 25px;
     font-weight: 400;
+    text-align: justify;
 }
 .faq-ans {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 500;
 
 }
@@ -5287,13 +5285,9 @@ ul {
     margin-right: 0px;
 }
 
-
-
 .start-order__start-booking-input:nth-child(4) {
     margin-right: 0px;
 }
-
-
 
 .start-order__start-booking-input:nth-child(6) {
     margin-right: 0px;
@@ -5342,7 +5336,18 @@ ul {
     font-weight: 400;
     padding: 0 30px;
 }
+.start-order__start-booking-input input[type="file"] {
+    width: 100%;
+    height: 75px;
+    border: none;
+    outline: none;
+    border-radius: var(--thm-border-radius);
+    font-size: 14px;
+    color: var(--thm-gray);
+    font-weight: 400;
+    padding: 30px 30px;
 
+}
 
 
 .start-order__start-bookin-icon-box {

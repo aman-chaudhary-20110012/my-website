@@ -15,23 +15,6 @@
     });
   }
 
-  if ($('#datepicker').length) {
-    $('#datepicker').datepicker();
-  };
-
-  if ($('#datepicker2').length) {
-    $('#datepicker2').datepicker();
-  };
-
-
-  if ($('#datepicker-inline').length) {
-    $('#datepicker-inline').datepicker();
-  };
-
-
-  $('input[name="time"]').ptTimeSelect();
-
-
   if ($(".banner-bg-slide").length) {
     $(".banner-bg-slide").each(function () {
       var Self = $(this);
@@ -39,25 +22,6 @@
       var bannerTwoSlides = Self.vegas(bgSlideOptions);
     });
   }
-
-  //Pricing Tabs
-  if ($('.pricing-tabs').length) {
-    $('.pricing-tabs .tab-btns .tab-btn').on('click', function (e) {
-      e.preventDefault();
-      var target = $($(this).attr('data-tab'));
-
-      if ($(target).hasClass('actve-tab')) {
-        return false;
-      } else {
-        $('.pricing-tabs .tab-btns .tab-btn').removeClass('active-btn');
-        $(this).addClass('active-btn');
-        $('.pricing-tabs .pr-content .pr-tab').removeClass('active-tab');
-        $(target).addClass('active-tab');
-      }
-    });
-  }
-
-
   // Type Effect
   if ($('.typed-effect').length) {
     $('.typed-effect').each(function () {
@@ -294,10 +258,6 @@
       },
     });
   }
-
-
-
-
 
   if ($(".scroll-to-target").length) {
     $(".scroll-to-target").on("click", function () {
@@ -794,10 +754,6 @@
       });
     };
 
-
-
-
-
   });
 
   // window scroll event
@@ -822,11 +778,6 @@
     }
   });
 
-
-
-
-
-
   if ($(".before-after-twentytwenty").length) {
     $(".before-after-twentytwenty").each(function () {
       var Self = $(this);
@@ -845,15 +796,4 @@
       });
     });
   };
-
-
-
-
-
-
-
-
-
-
-
 })(jQuery);
