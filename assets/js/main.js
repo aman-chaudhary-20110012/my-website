@@ -565,6 +565,7 @@
     });
   }
 
+  
 
   if ($(".range-slider-price").length) {
     var priceRange = document.getElementById("range-slider-price");
